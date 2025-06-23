@@ -4,18 +4,21 @@ This project demonstrates a machine learning-based approach to detecting network
 
 ---
 
-## 📌 Project Structure
+## 📁 Project Structure
 
+```text
 ai-nids-suricata/
-├── models/ # Saved ML models
-│ ├── random_forest.pkl
-│ └── xgb_classifier.pkl
-├── train_suricata_from_file.py # Training script
-├── infer_suricata_event.py # Run inference on a single alert
-├── evaluate_suricata_models.py # Benchmark models on full dataset
-├── feature_columns.json # List of feature columns
-├── label_encoder.pkl # Label encoder for alert signatures
-└── alerts-only.json # Full Suricata alerts dataset
+├── models/
+│   ├── random_forest.pkl
+│   └── xgb_classifier.pkl
+├── train_suricata_from_file.py
+├── infer_suricata_event.py
+├── evaluate_suricata_models.py
+├── feature_columns.json
+├── label_encoder.pkl
+└── alerts-only.json
+```
+
 
 
 
