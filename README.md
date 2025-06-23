@@ -1,0 +1,80 @@
+# 🛡️ AI-Powered Network Intrusion Detection System (NIDS) Using Suricata
+
+This project demonstrates a machine learning-based approach to detecting network intrusions using Suricata alerts. It extracts meaningful features from Suricata logs, trains both Random Forest and XGBoost classifiers, and provides tools for inference and model evaluation.
+
+---
+
+## 📌 Project Structure
+
+ai-nids-suricata/
+├── models/ # Saved ML models
+│ ├── random_forest.pkl
+│ └── xgb_classifier.pkl
+├── train_suricata_from_file.py # Training script
+├── infer_suricata_event.py # Run inference on a single alert
+├── evaluate_suricata_models.py # Benchmark models on full dataset
+├── feature_columns.json # List of feature columns
+├── label_encoder.pkl # Label encoder for alert signatures
+└── alerts-only.json # Full Suricata alerts dataset
+
+
+
+---
+
+## 🚀 Features
+
+- Parses large Suricata alert datasets in JSON format
+- Extracts flow, HTTP, and core fields
+- Encodes features and trains:
+  - ✅ Random Forest (Scikit-learn)
+  - ✅ XGBoost Classifier
+- Allows single-event inference for predictions
+- Evaluation script provides F1-score and classification metrics
+
+---
+
+## 📥 Large Files (Hosted on Google Drive)
+
+Due to GitHub file size limits, large data and model files are hosted externally:
+
+| File | Description | Google Drive Link |
+|------|-------------|------------------|
+| `alerts-only.json` | Full Suricata alert dataset | [Download](<insert-link-to-alerts-only.json>) |
+| `models/random_forest.pkl` | Trained Random Forest model | [Download](<insert-link-to-rf-model>) |
+| `models/xgb_classifier.pkl` | Trained XGBoost model | [Download](<insert-link-to-xgb-model>) |
+
+> Make sure all Google Drive files are set to "Anyone with the link can view".
+
+---
+
+## 📦 Requirements
+
+- Python 3.10+
+- scikit-learn
+- xgboost
+- pandas
+- numpy
+- joblib
+
+To install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+## Training
+python train_suricata_from_file.py
+#This will predict the alert signature using both trained models on a hardcoded example or passed input.
+
+## Evaluation
+python infer_suricata_event.py
+
+Runs the trained models against the full dataset and outputs performance metrics.
+
+
+🎯 Example Output
+🟩 Random Forest Prediction: ET SCAN Nmap User-Agent Detected
+🟦 XGBoost Prediction: SURICATA HTTP URI invalid
+
+📄 License
+This project is licensed under the MIT License.
+
