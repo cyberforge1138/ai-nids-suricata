@@ -42,8 +42,8 @@ Due to GitHub file size limits, large data and model files are hosted externally
 
 | File | Description | Google Drive Link |
 |------|-------------|------------------|
-| `alerts-only.json` | Full Suricata alert dataset | [Download](<https://https://drive.google.com/file/d/1uh5Owj6iX03uKl2MyRXjK0LngzcEDcK4/view?usp=sharing>) |
-| `models/random_forest.pkl` | Trained Random Forest model | [Download](<https://drive.google.com/file/d/1uh5Owj6iX03uKl2MyRXjK0LngzcEDcK4/view?usp=drive_link>) |
+| `alerts-only.json` | Full Suricata alert dataset | File available upon request |
+| `models/random_forest.pkl` | Trained Random Forest model | File available upon request |
 
 *Above files too large to be hosted on github
 
