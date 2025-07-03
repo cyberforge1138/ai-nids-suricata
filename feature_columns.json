@@ -1,0 +1,1 @@
+["src_ip", "dest_ip", "src_port", "dest_port", "proto", "app_proto", "flow.pkts_toserver", "flow.pkts_toclient", "flow.bytes_toserver", "flow.bytes_toclient", "alert_category", "alert_severity"]
