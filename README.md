@@ -42,11 +42,10 @@ Due to GitHub file size limits, large data and model files are hosted externally
 
 | File | Description | Google Drive Link |
 |------|-------------|------------------|
-| `alerts-only.json` | Full Suricata alert dataset | [Download](<insert-link-to-alerts-only.json>) |
-| `models/random_forest.pkl` | Trained Random Forest model | [Download](<insert-link-to-rf-model>) |
-| `models/xgb_classifier.pkl` | Trained XGBoost model | [Download](<insert-link-to-xgb-model>) |
+| `alerts-only.json` | Full Suricata alert dataset | [Download](<https://https://drive.google.com/file/d/1uh5Owj6iX03uKl2MyRXjK0LngzcEDcK4/view?usp=sharing>) |
+| `models/random_forest.pkl` | Trained Random Forest model | [Download](<https://drive.google.com/file/d/1uh5Owj6iX03uKl2MyRXjK0LngzcEDcK4/view?usp=drive_link>) |
 
-> Make sure all Google Drive files are set to "Anyone with the link can view".
+*Above files too large to be hosted on github
 
 ---
 
