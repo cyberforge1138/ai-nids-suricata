@@ -42,6 +42,8 @@ Due to GitHub file size limits, large data and model files are hosted externally
 | `alerts-only.json` | Full Suricata alert dataset | File available upon request |
 | `models/random_forest.pkl` | Trained Random Forest model | File available upon request |
 
+small_alerts.json provided as another sample
+
 *These files are too large to be hosted directly on GitHub.*
 
 ---
